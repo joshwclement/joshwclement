@@ -54,6 +54,10 @@ h2 {
   text-transform: uppercase;
  }
 
+ .footer {
+  margin-top: 40px;
+ }
+
 .section-title {
   margin-top:32px;
   font-size: 24px;
