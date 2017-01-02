@@ -13,8 +13,23 @@ body {
 }
 
 p {
-  margin-top: 12px;
+  margin-top: 0.8rem;
   font-size: 1.1rem;
+}
+
+img {
+  border: 2px solid #ddd;
+}
+
+.img-work {
+  margin: 2rem 0 3rem 0;
+}
+
+.img-work p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #888;
+  margin:0;
 }
 
 a {
@@ -26,7 +41,6 @@ a {
 h2 {
   font-size: 1.2rem;
   color: #000000;
-
 }
 
 .btn {
@@ -65,10 +79,7 @@ h2 {
   font-weight: 400;
 }
 
-img {
-  margin: 2rem 0;
 
-}
 
 /*Medium Screen*/
 @media screen and (min-width: 42em) and (max-width: 64em) {
