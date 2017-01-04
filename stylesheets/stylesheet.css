@@ -36,7 +36,7 @@ a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
 
 h2 {
   font-size: 1.2rem;
@@ -46,13 +46,11 @@ h2 {
 .btn {
   display: inline-block;
   padding: 10px;
+  text-transform: uppercase;
   margin-right: 4px;
   margin-bottom: 1rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  border-color: #1e6bb8;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 4px;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
 
 .btn:hover {
@@ -116,14 +114,15 @@ h2 {
 
 .project-name {
   margin-top: 0;
+  color: #333;
   margin-bottom: 0.1rem;
   font-weight: 300; }
 
 @media screen and (min-width: 64em) {
   .project-name {
     font-size: 56px;
-    
-    color: #333332; } }
+     } 
+   }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
