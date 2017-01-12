@@ -12,9 +12,45 @@ body {
   color: #606c71; 
 }
 
+a {
+  color: #000;
+  text-decoration: none; }
+  
+a:hover {
+    color: #345bb8; 
+  }
+
+a .description {
+  color: #606c71; 
+} 
+
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
+
+.nav {
+  display:inline;
+  margin-right: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+ul a {
+  display: block;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
 p {
   margin-top: 0.8rem;
   font-size: 1.1rem;
+  line-height: 2.1rem;
+}
+
+p a {
+  font-weight: 400;
 }
 
 img {
@@ -32,31 +68,10 @@ img {
   margin:0;
 }
 
-a {
-  color: #1e6bb8;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: none; }
-
 h2 {
   font-size: 1.2rem;
   color: #000000;
 }
-
-.btn {
-  display: inline-block;
-  padding: 10px;
-  text-transform: uppercase;
-  margin-right: 4px;
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-
-.btn:hover {
-  text-decoration: none;
-  background-color: rgba(30, 107, 184, 0.2);
- }
 
  .footer {
   margin-top: 40px;
@@ -65,7 +80,7 @@ h2 {
 .section-title {
   margin-top:32px;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 400;
   color: #000;
 }
 
@@ -75,26 +90,14 @@ h2 {
 
 .role {
   font-weight: 400;
+  margin-top:40px;
 }
 
-
-
-/*Medium Screen*/
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem; } }
-
-/*Small Screen*/
-@media screen and (max-width: 42em) {
-  .btn {
-    display: inline;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem; }
-    .btn + .btn {
-      margin-top: 1rem;
-      margin-left: 0; } }
+.category {
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: block;
+}
 
 .page-header {
   text-align: left;
@@ -111,6 +114,19 @@ h2 {
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 2rem 1rem; } }
+
+@media screen and (max-width: 42em) {
+  .category {
+    font-size: 1.4rem;
+  } }
+
+@media screen and (min-width: 64em) {
+  .nav {
+    font-size: 1.2rem;
+  } }
+
+
+
 
 .project-name {
   margin-top: 0;
