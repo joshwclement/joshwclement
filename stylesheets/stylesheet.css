@@ -7,13 +7,27 @@
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
-  color: #606c71; 
+  color: rgba(0,0,0,0.7); 
 }
 
-a {
-  color: #000;
+p {
+  margin-top: 0.8rem;
+  line-height: 2rem;
+}
+
+p a {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight:normal;
+}
+
+a, a:visited {
+  color: #4184F3;
   text-decoration: none; }
   
 a:hover {
@@ -43,15 +57,7 @@ ul a {
   margin-bottom: 2rem;
 }
 
-p {
-  margin-top: 0.8rem;
-  font-size: 1.1rem;
-  line-height: 2.1rem;
-}
 
-p a {
-  font-weight: 400;
-}
 
 img {
   border: 2px solid #ddd;
@@ -68,35 +74,39 @@ img {
   margin:0;
 }
 
-h2 {
-  font-size: 1.2rem;
-  color: #000000;
-}
-
  .footer {
   margin-top: 40px;
  }
 
 .section-title {
   margin-top:32px;
-  font-size: 1.8rem;
   font-weight: 400;
-  color: #000;
+  font-size: 1.4rem;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  margin-top:10px;
+  width: 100px;
+  background-color: rgba(0,0,0,0.7); 
+  height: 2px;
+
 }
 
 .job {
-  margin-top:2rem;
+  margin-top:2.4rem;
 }
 
 .role {
-  font-weight: 400;
-  margin-top:40px;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-top:10px;
 }
 
 .category {
   font-size: 1.8rem;
   font-weight: 400;
-  display: block;
 }
 
 .page-header {
