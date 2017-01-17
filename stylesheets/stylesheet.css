@@ -22,8 +22,8 @@ p a {
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight:normal;
+  font-size: 1.2rem;
+  font-weight:500;
 }
 
 a, a:visited {
@@ -38,10 +38,21 @@ a .description {
   color: #606c71; 
 } 
 
+.description {
+  margin-top: 2px;
+}
 
 ul, li {
   list-style: none;
   display: inline;
+}
+
+
+.work-panel {
+  border: 2px solid #EEE;
+  padding: 20px;
+  border-radius: 4px;
+
 }
 
 .nav {
@@ -57,6 +68,17 @@ ul a {
   margin-bottom: 2rem;
 }
 
+video {
+  width: 100%;
+  border: 2px solid #ddd;
+
+}
+
+.video-narrow {
+  width: 40%;
+  margin: 200px;
+ }
+
 
 img {
   border: 2px solid #ddd;
@@ -71,6 +93,7 @@ img {
   font-weight: 300;
   color: #888;
   margin:0;
+  line-height: 1.9;
 }
 
  .footer {
@@ -78,21 +101,11 @@ img {
  }
 
 .section-title {
+  color: #1D2129;
   margin-top:32px;
-  font-weight: 800;
-  font-size: 1.4rem;
-
-}
-
-.section-title:after {
-  content: "";
-  display: block;
-  margin-top:4px;
-  width:100%;
-  background-color: #DDDDDD; 
-  height: 2px;
-  margin-bottom:40px;
-
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom:44px;
 }
 
 .job {
@@ -135,9 +148,6 @@ img {
   .nav {
     font-size: 1.2rem;
   } }
-
-
-
 
 .project-name {
   margin-top: 0;
