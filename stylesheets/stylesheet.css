@@ -24,6 +24,7 @@ p a {
 h2 {
   font-size: 1.2rem;
   font-weight:500;
+  margin-top: 1.5rem;
 }
 
 a, a:visited {
@@ -85,7 +86,7 @@ img {
 }
 
 .img-work {
-  margin: 2rem 0 3rem 0;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .img-work p {
@@ -126,6 +127,11 @@ img {
 .page-header {
   text-align: left;
   background-color: #F9F9F9; }
+
+.footer {
+  background-color: #F9F9F9;
+  padding: 20px;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
