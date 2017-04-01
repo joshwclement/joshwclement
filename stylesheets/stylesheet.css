@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: rgba(0,0,0,0.7); 
 }
@@ -15,7 +15,9 @@ body {
 p {
   margin-top: 0.8rem;
   line-height: 2rem;
+  color: #474E5B;
 }
+
 
 p a {
   font-weight: 400;
@@ -48,18 +50,20 @@ ul, li {
   display: inline;
 }
 
+.stage-title {
+  margin-top: 2.6rem;
+}
 
 .work-panel {
   border: 2px solid #EEE;
   padding: 20px;
   border-radius: 4px;
-
 }
 
 .nav {
   display:inline;
   margin-right: 1rem;
-  font-weight: 800;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 
@@ -86,7 +90,7 @@ img {
 }
 
 .img-work {
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 2.5rem 0 1.5rem 0;
 }
 
 .img-work p {
@@ -103,10 +107,10 @@ img {
 
 .section-title {
   color: #1D2129;
-  margin-top:32px;
+  margin-top: 32px;
   font-weight: 400;
   font-size: 1.6rem;
-  margin-bottom:44px;
+  margin-bottom: 32px;
 }
 
 .job {
@@ -192,6 +196,12 @@ img {
 @media screen and (max-width: 42em) {
   .project-tagline {
     font-size: 1rem; } }
+
+
+@media screen and (max-width: 42em) {
+    .section-title {
+  font-size: 1.4rem;
+} }
 
 .main-content :first-child {
   margin-top: 0; }
