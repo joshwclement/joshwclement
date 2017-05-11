@@ -28,6 +28,11 @@ p {
   padding: 0;
 }
 
+.folio-container {
+   background-color: yellow;
+   width: 960px;
+   margin: auto;
+}
 .label {
   font-size: 1em;
   line-height: 1.5;
@@ -101,6 +106,19 @@ p {
   margin-bottom: 40px;
 }
 
+.img-work img {
+  width: 100%;
+}
+
+.img-work p {
+  color: red;
+  text-decoration: underline;
+}
+
+.stage-title {
+  font-size: 3em;
+}
+
 @media (max-width: 600px), screen and (max-device-width: 600px) {
   html {
     font-size: 110%;
@@ -108,6 +126,10 @@ p {
 
   .grid {
     grid-template-columns: none;
+  }
+
+  .folio-container {
+    width: 90%;
   }
 
   .about {
