@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  font-size: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.2;
+  color: #26242C;
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.about {
+  background-color: #280680;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.about .welcome {
+  border: 5px solid red;
+  width: 80%;
+  min-width: 300px;
+  margin: 12px;
+  text-align: center;
+  color: #FAF9F5;
+}
+.about .welcome .label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 64px;
+}
+.about .welcome .title {
+  font-size: 3em;
+  line-height: 1.2;
+  display: block;
+}
+.about .welcome .btn-primary {
+  cursor: pointer;
+  color: #FAF9F5;
+  font-size: 14px;
+  border: solid 2px #FAF9F5;
+  padding: 0 16px;
+  height: 40px;
+  line-height: 2.6;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 48px;
+}
+.about .welcome .footnote {
+  display: block;
+  margin-top: 48px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects .p-list {
+  border: 5px solid red;
+  font-size: 3em;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+}
+.projects .p-list li {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px), screen and (max-device-width: 600px) {
+  html {
+    font-size: 110%;
+  }
+
+  .grid {
+    grid-template-columns: none;
+  }
+
+  .about {
+    height: auto;
+  }
+
+  .project-grid {
+    width: 80%;
+  }
+}
+@media screen and (max-device-width: 600px) {
+  html {
+    font-size: 220%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
