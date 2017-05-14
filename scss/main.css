@@ -39,11 +39,24 @@ footer {
   margin: 0;
   height: 10em;
   margin-top: 4em; }
+  footer .btn-primary {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: none;
+    font-size: 2em; }
 
 .folio-container {
   margin: auto;
   width: 80%;
   max-width: 64em; }
+  .folio-container .btn-primary {
+    color: #26242C;
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    border: none; }
   .folio-container .title-project {
     font-size: 3em;
     font-weight: 700;
@@ -166,7 +179,7 @@ p {
 
 @media (max-width: 600px), screen and (max-device-width: 600px) {
   html {
-    font-size: 150%; }
+    font-size: 160%; }
 
   .grid {
     grid-template-columns: none; }

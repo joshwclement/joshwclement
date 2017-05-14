@@ -52,6 +52,15 @@ footer {
   margin: 0;
   height: 10em;
   margin-top: 4em;
+
+  .btn-primary {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: none;
+    font-size: 2em;
+  }
 }
 
 // work-typography
@@ -60,6 +69,14 @@ footer {
   margin: auto;
   width: 80%;
   max-width:  64em;
+
+  .btn-primary {
+    color: $eggplant;
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    border: none;
+  }
 
   .title-project {
     @include big-t;
@@ -220,7 +237,7 @@ p {
 // Below 600px show this:
 @media (max-width: 600px), screen and (max-device-width: 600px) {
   html {
-    font-size: 150%;
+    font-size: 160%;
   }
 
   .grid {
