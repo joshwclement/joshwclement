@@ -166,8 +166,7 @@ p {
     .projects .p-list p {
       font-size: 0.9em;
       line-height: 1.5em;
-      margin-bottom: 3em;
-      margin-top: 3em; }
+      margin-bottom: 3em; }
     .projects .p-list li {
       margin-bottom: 40px; }
     .projects .p-list li a {
@@ -177,7 +176,7 @@ p {
       line-height: 1.5em;
       margin-bottom: 0.75em; }
 
-@media (max-width: 600px), screen and (max-device-width: 600px) {
+@media (max-width: 600px) {
   html {
     font-size: 160%; }
 
