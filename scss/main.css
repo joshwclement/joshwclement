@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box; }
 
-body, html {
+body {
   margin: 0;
   font-size: 100%;
   font-family: 'Roboto Mono', monospace;
@@ -25,32 +25,22 @@ a {
 a:hover {
   text-decoration: underline; }
 
-.btn-primary {
-  color: #F2F2F2;
-  text-decoration: none;
-  margin: 1em;
-  border: 1px solid #F2F2F2;
-  padding: 1em;
-  display: inline-block; }
-
 footer {
   background-color: #FF8415;
+  display: flex;
   width: 100%;
-  margin: 0;
-  height: 10em;
+  align-items: center;
+  justify-content: space-around;
   margin-top: 4em; }
   footer .btn-primary {
-    display: block;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    border: none;
-    font-size: 2em; }
+    font-size: 2em;
+    padding: 3em; }
 
 .folio-container {
   margin: auto;
-  width: 80%;
-  max-width: 64em; }
+  display: grid;
+  width: 50vw;
+  max-width: 50em; }
   .folio-container .btn-primary {
     color: #26242C;
     margin: 0;
@@ -72,16 +62,15 @@ footer {
     margin-top: 2.25em; }
   .folio-container p {
     font-weight: 300;
-    font-size: 0.9em;
-    line-height: 2em;
+    font-size: 1.1em;
+    line-height: 1.8em;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.56px;
     margin-bottom: 1.5em; }
   .folio-container .highlight {
     font-weight: 700; }
   .folio-container .lede {
-    font-size: 1.1em;
-    line-height: 2.2em;
+    font-size: 1.6em;
+    line-height: 1.8em;
     color: #80818B; }
   .folio-container .new {
     color: #FF8415; }
@@ -91,10 +80,7 @@ footer {
 .img-work {
   margin-bottom: 4em; }
   .img-work p {
-    color: #26242C;
-    background-color: yellow;
-    font-size: 0.9em;
-    line-height: 1.6em; }
+    background-color: #ffff2d; }
   .img-work img, .img-work video {
     width: 100%;
     border: 2px solid #80818B; }
@@ -129,16 +115,15 @@ p {
   background-size: cover; }
   .about .welcome {
     width: 80%;
-    min-width: 300px;
-    margin: 12px;
+    min-width: 20em;
+    margin: 0.8em;
     text-align: center;
     color: #F2F2F2; }
-    .about .welcome .label {
-      font-weight: 500;
-      font-size: 1em;
-      line-height: 2.25em;
-      margin-bottom: 1.5em;
-      display: block; }
+    .about .welcome .btn-primary {
+      color: #FF8415;
+      padding: 1em;
+      display: inline-block;
+      margin-bottom: 2em; }
     .about .welcome .title {
       font-size: 3em;
       font-weight: 700;
@@ -148,6 +133,8 @@ p {
     .about .welcome .footnote {
       display: block;
       margin-bottom: 2em; }
+    .about .welcome .st {
+      opacity: 0.1; }
 
 .projects {
   display: flex;
@@ -166,9 +153,11 @@ p {
     .projects .p-list p {
       font-size: 0.9em;
       line-height: 1.5em;
-      margin-bottom: 3em; }
+      margin-bottom: 1em; }
     .projects .p-list li {
-      margin-bottom: 40px; }
+      margin-bottom: 1em; }
+    .projects .p-list .sp {
+      margin-top: 2em; }
     .projects .p-list li a {
       font-size: 1.5em;
       letter-spacing: normal;
@@ -176,15 +165,19 @@ p {
       line-height: 1.5em;
       margin-bottom: 0.75em; }
 
-@media (max-width: 600px) {
-  html {
+@media only screen and (max-width: 600px) {
+  body {
     font-size: 160%; }
 
   .grid {
     grid-template-columns: none; }
 
+  .about .welcome .btn-primary {
+    display: block;
+    margin: 0; }
+
   .folio-container {
-    width: 90%; }
+    width: 90vw; }
 
   .about {
     height: auto; }
