@@ -25,6 +25,14 @@ a {
 a:hover {
   text-decoration: underline; }
 
+.btn-primary {
+  color: #F2F2F2;
+  text-decoration: none;
+  margin: 1em;
+  border: 1px solid #F2F2F2;
+  padding: 1em;
+  display: inline-block; }
+
 footer {
   background-color: #FF8415;
   width: 100%;
@@ -34,7 +42,6 @@ footer {
 
 .folio-container {
   margin: auto;
-  background-color: #FF8415;
   width: 80%;
   max-width: 64em; }
   .folio-container .title-project {
@@ -126,7 +133,8 @@ p {
       margin-bottom: 0.75em;
       display: block; }
     .about .welcome .footnote {
-      display: block; }
+      display: block;
+      margin-bottom: 2em; }
 
 .projects {
   display: flex;

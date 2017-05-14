@@ -37,6 +37,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.btn-primary {
+  color: $default-bg;
+  text-decoration: none;
+  margin: 1em;
+  border: 1px solid $default-bg;
+  padding: 1em;
+  display: inline-block;
+}
+
 footer {
   background-color: $db-blaze;
   width: 100%;
@@ -159,6 +168,7 @@ p {
 
     .footnote {
       display: block;
+      margin-bottom: 2em;
     }
   }
 }
