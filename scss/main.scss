@@ -187,9 +187,20 @@ p {
     width: 80%;
     position: relative;
 
+    .open {
+      color: $db-blaze;
+
+    }
+
+    .locked {
+      color: $db-rain;
+      text-decoration: none;
+    }
+
     p {
       font-size: 0.9em;
       line-height: 1.5em;
+      margin-bottom: 3em;
       margin-top: 3em;
     }
 

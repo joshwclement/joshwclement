@@ -145,9 +145,15 @@ p {
     flex-direction: column;
     width: 80%;
     position: relative; }
+    .projects .p-list .open {
+      color: #FF8415; }
+    .projects .p-list .locked {
+      color: #CBCACE;
+      text-decoration: none; }
     .projects .p-list p {
       font-size: 0.9em;
       line-height: 1.5em;
+      margin-bottom: 3em;
       margin-top: 3em; }
     .projects .p-list li {
       margin-bottom: 40px; }
