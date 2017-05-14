@@ -231,20 +231,30 @@ p {
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 160%;
+    font-size: 140%;
   }
-
+//Stacks 2x2 grid
   .grid {
-    grid-template-columns: none;
+    display:block;
   }
 
+//stacks buttons
   .about .welcome .btn-primary {
     display: block;
     margin: 0;
   }
 
+  .about .welcome {
+    min-width: 90%;
+  }
+
+  .projects .p-list {
+    width: 80%;
+    padding: 0;
+  }
+
   .folio-container {
-    width: 90vw;
+    width: 100%;
   }
 
   .about {
