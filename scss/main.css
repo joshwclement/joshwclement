@@ -166,7 +166,7 @@ p {
 
 @media (max-width: 600px), screen and (max-device-width: 600px) {
   html {
-    font-size: 110%; }
+    font-size: 150%; }
 
   .grid {
     grid-template-columns: none; }
