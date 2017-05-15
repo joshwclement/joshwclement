@@ -122,17 +122,14 @@ footer {
   }
 }
 
-// Landing page typography
+// Landing page
 
-p {
-  @include medium-t;
-  color: #26242C;
-  margin: 0;
-  padding: 0;
-}
-
-.label {
-  @include small-t;
+.footnote {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
 }
 
 // Parent Grid
@@ -170,11 +167,6 @@ p {
       display: block;
     }
 
-    .footnote {
-      display: block;
-      margin-bottom: 2em;
-    }
-
     .st {
       opacity: 0.1;
     }
@@ -203,12 +195,6 @@ p {
       color: $db-rain;
       text-decoration: none;
     }
-
-    p {
-      font-size: 0.9em;
-      line-height: 1.5em;
-      margin-bottom: 1em;
-      }
 
     li {
       margin-bottom: 1em;

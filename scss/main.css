@@ -85,21 +85,12 @@ footer {
     width: 100%;
     border: 2px solid #80818B; }
 
-p {
-  font-size: 1.5em;
-  letter-spacing: normal;
-  font-weight: 500;
+.footnote {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.9em;
   line-height: 1.5em;
-  margin-bottom: 0.75em;
-  color: #26242C;
-  margin: 0;
-  padding: 0; }
-
-.label {
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 2.25em;
-  margin-bottom: 1.5em; }
+  margin-bottom: 1em; }
 
 .grid {
   display: grid;
@@ -130,9 +121,6 @@ p {
       line-height: 1.5em;
       margin-bottom: 0.75em;
       display: block; }
-    .about .welcome .footnote {
-      display: block;
-      margin-bottom: 2em; }
     .about .welcome .st {
       opacity: 0.1; }
 
@@ -150,10 +138,6 @@ p {
     .projects .p-list .locked {
       color: #CBCACE;
       text-decoration: none; }
-    .projects .p-list p {
-      font-size: 0.9em;
-      line-height: 1.5em;
-      margin-bottom: 1em; }
     .projects .p-list li {
       margin-bottom: 1em; }
     .projects .p-list .sp {
