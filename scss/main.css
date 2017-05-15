@@ -151,7 +151,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 140%; }
+    font-size: 120%; }
 
   .grid {
     display: block; }
@@ -168,7 +168,7 @@ footer {
     padding: 0; }
 
   .folio-container {
-    width: 100%; }
+    width: 90%; }
 
   .about {
     height: auto; }
