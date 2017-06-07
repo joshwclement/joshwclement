@@ -9,7 +9,8 @@
 body {
   margin: 0;
   font-size: 100%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Helvetica', monospace;
+  background: #FAFAFA;
   color: $eggplant;
 }
 
@@ -31,98 +32,13 @@ ul, li {
 
 a {
   text-decoration: none;
+  color: #0070c9;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-footer {
-  background-color: $db-blaze;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-
-  margin-top: 4em;
-
-  .btn-primary {
-    font-size: 2em;
-    padding: 3em;
-  }
-}
-
-// work-typography
-
-.folio-container {
-  margin: auto;
-  display: grid;
-  width: 50vw;
-  max-width: 50em;
-
-  .btn-primary {
-    color: $eggplant;
-    margin: 0;
-    padding: 0;
-    margin-top: 2em;
-    border: none;
-  }
-
-  .title-project {
-    @include big-t;
-    padding-top: 1em;
-  }
-
-  .title-section {
-    @include medium-t;
-    margin-top: 2.25em;
-  }
-
-  p {
-    font-weight: 400;
-    font-size: 1.1em;
-    line-height: 1.8em;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 1.5em;
-  }
-
-  .highlight {
-    font-weight: 700;
-  }
-
-  .lede {
-    font-size: 1.6em;
-    line-height: 1.8em;
-    color: $db-steel;
-  }
-
-  .new {
-    color: $db-blaze;
-  }
-
-  .existing {
-    color: green;
-  }
-
-}
-
-// work-imagery
-
-.img-work {
-  margin-bottom: 4em;
-
-  //caption
-  p {
-    background-color: $popcorn;
-  }
-
-  img, video {
-    width: 100%;
-    border: 2px solid $db-steel;
-  }
-}
-
-// Landing page
 
 .footnote {
   display: block;
@@ -132,7 +48,6 @@ footer {
   margin-bottom: 1em;
 }
 
-// Parent Grid
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -141,7 +56,7 @@ footer {
 
 // LHS
 .about {
-  background-color: $eggplant;
+  background-color: #FAFAFA;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -153,7 +68,6 @@ footer {
     min-width: 20em;
     margin: 0.8em;
     text-align: center;
-    color: $default-bg;
 
     .btn-primary {
       color: $db-blaze;
@@ -173,13 +87,14 @@ footer {
   }
 }
 
-
 //RHS
 
 .projects {
+  color: #CECECE;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1A1A1A;
 
   .p-list {
     display: flex;
@@ -187,25 +102,12 @@ footer {
     width: 80%;
     position: relative;
 
-    .open {
-      color: $db-blaze;
-    }
-
-    .locked {
-      color: $db-rain;
-      text-decoration: none;
-    }
-
     li {
       margin-bottom: 1em;
     }
 
     .sp {
       margin-top: 2em;
-    }
-
-    li a {
-      @include medium-t;
     }
 
   }
