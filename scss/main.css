@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-size: 100%;
-  font-family: 'Helvetica', monospace;
+  font-family: 'Roboto Mono', monospace;
   background: #FAFAFA;
   color: #26242C;
 }
@@ -64,7 +64,6 @@ a:hover {
   text-align: center;
 }
 .about .welcome .btn-primary {
-  color: #FF8415;
   padding: 1em;
   display: inline-block;
   margin-bottom: 2em;
