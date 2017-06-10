@@ -71,16 +71,11 @@ a:hover {
     .btn-primary {
       padding: 1em;
       display: inline-block;
-      margin-bottom: 2em;
     }
 
     .title {
       @include big-t;
       display: block;
-    }
-
-    .st {
-      opacity: 0.1;
     }
   }
 }
@@ -140,17 +135,10 @@ a:hover {
     padding: 0;
   }
 
-  .folio-container {
-    width: 90%;
-  }
-
   .about {
     height: auto;
   }
 
-  .project-grid {
-    width: 80%;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
