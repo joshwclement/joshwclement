@@ -68,6 +68,7 @@ a:hover {
     margin: 0.8em;
     text-align: center;
 
+
     .btn-primary {
       padding: 1em;
       display: inline-block;
@@ -114,15 +115,23 @@ a:hover {
   body {
     font-size: 120%;
   }
+
 //Stacks 2x2 grid
   .grid {
     display:block;
   }
+.about {
+  .footnote {
+    text-align: left;
+    padding: 1em;
+  }
+}
 
 //stacks buttons
   .about .welcome .btn-primary {
     display: block;
     margin: 0;
+    text-align: left;
   }
 
   .about .welcome {
