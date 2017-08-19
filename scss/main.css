@@ -91,6 +91,10 @@ a:hover {
 .projects .p-list li {
   margin-bottom: 1em;
 }
+.projects .p-list .dead {
+  color: #222;
+  text-decoration: none;
+}
 .projects .p-list .sp {
   margin-top: 2em;
 }
