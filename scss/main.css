@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-size: 100%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: Helvetica;
   background: #FAFAFA;
   color: #26242C;
 }
@@ -43,16 +43,10 @@ a:hover {
   margin-bottom: 1em;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 100vh;
-}
-
 .about {
   background-color: #FAFAFA;
   display: flex;
-  height: 100vh;
+  height: 50vh;
   justify-content: center;
   align-items: center;
   background-size: cover;
@@ -68,36 +62,39 @@ a:hover {
   display: inline-block;
 }
 .about .welcome .title {
-  font-size: 3em;
-  font-weight: 700;
-  line-height: 1.5em;
+  font-size: 4.5em;
+  font-weight: 300;
+  line-height: 1.25em;
   margin-bottom: 0.75em;
   display: block;
+
 }
 
+
+/* work in progress */
 .projects {
   color: #CECECE;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1A1A1A;
+  text-align: center;
 }
-.projects .p-list {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  position: relative;
+
+.section-work {
+  border-color: #222;
+  display: inline-flex;
+  height: 400px;
+  margin-bottom: 40px;
+  background: yellow;
 }
-.projects .p-list li {
-  margin-bottom: 1em;
+
+.section-work p {
+  width: 40%;
 }
-.projects .p-list .dead {
-  color: #222;
-  text-decoration: none;
+
+.image {
+  display: block;
+  width: 400px;
 }
-.projects .p-list .sp {
-  margin-top: 2em;
-}
+
+
 
 @media only screen and (max-width: 600px) {
   body {
@@ -119,8 +116,9 @@ a:hover {
     text-align: left;
   }
 
-  .about .welcome {
+  .about .welcome .title {
     min-width: 90%;
+    font-size: 2.5rem;
   }
 
   .projects .p-list {
@@ -133,6 +131,3 @@ a:hover {
     height: auto;
   }
 }
-/*# sourceMappingURL=main.css.map */
-
-/*# sourceMappingURL=main.css.map */
