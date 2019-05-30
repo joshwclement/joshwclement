@@ -46,7 +46,6 @@ a:hover {
 .about {
   background-color: #FAFAFA;
   display: flex;
-  height: 50vh;
   justify-content: center;
   align-items: center;
   background-size: cover;
