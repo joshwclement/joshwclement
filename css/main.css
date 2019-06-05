@@ -4,14 +4,6 @@
   font-weight: 700;
 }
 
-.absolute {
-  position: absolute;
-  top: 2080px;
-  right: 80px;
-  width: 100px;
-  height: 100px;
-}
-
 .scribble {
   position: absolute;
   top: 800px;
