@@ -9,3 +9,10 @@
 	font-weight: 800;
 	font-style: normal;
 }
+
+.dots {
+  background-image: radial-gradient(#BBB 20%, transparent 20%),
+  radial-gradient(#BBB 20%, transparent 20%);
+  background-position: 0 0, 5px 5px;
+  background-size: 5px 5px;
+}
