@@ -1,7 +1,15 @@
 ::selection {
-  background: #5E2CA5;
+  background: #FFD700;
 }
 
+a:hover {
+text-decoration-color: #FFD700;
+}
+
+.highlight {
+    background-color: #FFD700;
+    background-image: linear-gradient(to right, #FFB700 0%, #FFD700 100%);
+}
 
 .utopia {
   font-family: utopia-std-caption, serif;
